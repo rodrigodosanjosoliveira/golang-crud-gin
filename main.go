@@ -41,7 +41,7 @@ func main() {
 		Handler: routes,
 	}
 
-	err := server.ListenAndServe()
+	err = server.ListenAndServe()
 	helper.ErrorPanic(err)
 
 }
